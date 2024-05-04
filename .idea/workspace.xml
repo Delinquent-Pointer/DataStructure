@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0cf81ca-abc8-405f-a1cb-b23a3973e363" name="Changes" comment="Version 0.0.2 Practice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a0cf81ca-abc8-405f-a1cb-b23a3973e363" name="Changes" comment="Version 0.0.4 Practice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714802010943</updated>
       <workItem from="1714802012084" duration="1633000" />
-      <workItem from="1714803659121" duration="7043000" />
+      <workItem from="1714803659121" duration="7525000" />
     </task>
     <task id="LOCAL-00001" summary="Version 0.0.1 Practice">
       <option name="closed" value="true" />
@@ -178,7 +174,39 @@
       <option name="project" value="LOCAL" />
       <updated>1714809757436</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Version 0.0.3 Practice">
+      <option name="closed" value="true" />
+      <created>1714810813981</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714810813981</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Version 0.0.3 Practice">
+      <option name="closed" value="true" />
+      <created>1714810911122</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714810911122</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Version 0.0.4 Practice">
+      <option name="closed" value="true" />
+      <created>1714810936954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714810936954</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Version 0.0.4 Practice">
+      <option name="closed" value="true" />
+      <created>1714811221642</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714811221642</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +226,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 0.0.1 Practice" />
     <MESSAGE value="Version 0.0.2 Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.0.2 Practice" />
+    <MESSAGE value="Version 0.0.3 Practice" />
+    <MESSAGE value="Version 0.0.5 Practice" />
+    <MESSAGE value="Version 0.0.4 Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.0.4 Practice" />
   </component>
 </project>
