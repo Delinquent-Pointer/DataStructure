@@ -1,17 +1,14 @@
-public class LinkedList {
+package DataStructure;
 
-  public class Node{
-    Object data;
-    Node next;
-    public Node(Object data) {
-      this.data = data;
-      this.next = null;
-    }
-  }
+/**
+ *  This my own practice made it available for public
+ *  Please cite me if your going to use it =)
+ */
+
+public class LinkedList {
 
   Node head;
   private int size;
-
   public LinkedList() {
     head = null;
     size = 0;
@@ -36,8 +33,15 @@ public class LinkedList {
   }
 
   public void removeLast() {
-    if (head == null || size == 0) {
-      throw new NullPointerException("List is empty");
+    if (head == null) {
+      printError("List is empty");
+      return;
+    }
+
+    if (head.next == null) {
+      head = null; // If there's only one element, set head to null
+      size--;
+      return;
     }
 
     Node cur = head;
@@ -48,9 +52,12 @@ public class LinkedList {
       cur = cur.next;
     }
 
-    assert prev != null;
     prev.next = null;
     size--;
+  }
+
+  private void printError(String eMsg){
+    System.out.println(eMsg);
   }
 
   public void printList() {
@@ -60,6 +67,15 @@ public class LinkedList {
     for (int i = 0; i < size; i++) {
       System.out.println(cur.data);
       cur = cur.next;
+    }
+  }
+
+  public class Node{
+    Object data;
+    Node next;
+    public Node(Object data) {
+      this.data = data;
+      this.next = null;
     }
   }
 
