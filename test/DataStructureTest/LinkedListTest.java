@@ -22,4 +22,4 @@ public class LinkedListTest {
     LinkedList list = new LinkedList();
 
   }
-}// test
+}// end test
