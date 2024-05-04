@@ -70,15 +70,6 @@ public class LinkedList {
     }
   }
 
-  public class Node{
-    Object data;
-    Node next;
-    public Node(Object data) {
-      this.data = data;
-      this.next = null;
-    }
-  }
-
   @Override
   public String toString() {
     // Initialize an empty string builder
@@ -96,6 +87,15 @@ public class LinkedList {
 
     // Return the final string
     return sb.toString();
+  }
+
+  public class Node{
+    Object data;
+    Node next;
+    public Node(Object data) {
+      this.data = data;
+      next = null;
+    }
   }
 
 }
