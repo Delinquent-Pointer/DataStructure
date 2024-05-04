@@ -17,4 +17,9 @@ public class LinkedListTest {
     assertEquals("Should print out: ","Hello World?", list.toString());
   }
 
+  @Test(timeout = TIMEOUT)
+  public void test_addFirst_method() {
+    LinkedList list = new LinkedList();
+    list.printList();
+  }
 }
