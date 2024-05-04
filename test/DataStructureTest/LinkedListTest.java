@@ -16,4 +16,5 @@ public class LinkedListTest {
     list.addLast("Hello World?");
     assertEquals("Should print out: ","Hello World?", list.toString());
   }
-}
+
+}//
