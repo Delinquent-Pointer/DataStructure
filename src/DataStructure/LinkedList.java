@@ -79,4 +79,23 @@ public class LinkedList {
     }
   }
 
+  @Override
+  public String toString() {
+    // Initialize an empty string builder
+    StringBuilder sb = new StringBuilder();
+
+    // Iterate over the list and append each element to the string builder
+    for (Node node = head; node != null; node = node.next) {
+      sb.append(node.data);
+
+      // Add a comma and a space between elements, but not after the last element
+      if (node.next != null) {
+        sb.append(", ");
+      }
+    }
+
+    // Return the final string
+    return sb.toString();
+  }
+
 }

@@ -1,8 +1,8 @@
 package DataStructureTest;
 
 import static org.junit.Assert.*;
-
 import DataStructure.LinkedList;
+import DataStructure.LinkedList.Node;
 import org.junit.*;
 import org.junit.runners.MethodSorters;
 
@@ -20,6 +20,6 @@ public class LinkedListTest {
   @Test(timeout = TIMEOUT)
   public void test_addFirst_method() {
     LinkedList list = new LinkedList();
-    list.printList();
+
   }
 }
