@@ -11,12 +11,9 @@ public class Main {
     listA.addLast("3.5555f");
     listA.addLast(4.7897897789789);
 
-    listA.removeLast();
-    listA.removeLast();
-    listA.removeLast();
-    listA.removeLast();
-    listA.removeLast();
-    listA.removeLast();
+    for(int i = 0; i < 6; i++) {
+      System.out.println(listA.removeLast());
+    }
 
     listA.printList();
   }

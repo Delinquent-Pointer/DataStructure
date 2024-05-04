@@ -32,16 +32,16 @@ public class LinkedList {
     size++;
   }
 
-  public void removeLast() {
+  public boolean removeLast() {
     if (head == null) {
-      printError("List is empty");
-      return;
+      printError("List is empty...");
+      return false;
     }
 
     if (head.next == null) {
       head = null; // If there's only one element, set head to null
       size--;
-      return;
+      return true;
     }
 
     Node cur = head;
@@ -54,10 +54,11 @@ public class LinkedList {
 
     prev.next = null;
     size--;
+    return true;
   }
 
   private void printError(String eMsg){
-    System.out.println(eMsg);
+    System.out.print(eMsg);
   }
 
   public void printList() {
