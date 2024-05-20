@@ -14,7 +14,7 @@ public class LinkedListTest {
   public void test_addLast_method() {
     LinkedList list = new LinkedList();
     list.addLast("Hello World?");
-    assertEquals("Should print out: ","Hello World?", list.toString());
+    assertEquals("Should print out: ","Hello orld?", list.toString());
   }
 
   @Test(timeout = TIMEOUT)

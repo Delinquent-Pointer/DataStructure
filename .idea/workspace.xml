@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0cf81ca-abc8-405f-a1cb-b23a3973e363" name="Changes" comment="Version 0.0.5 Practice">
+    <list default="true" id="a0cf81ca-abc8-405f-a1cb-b23a3973e363" name="Changes" comment="Version 0.0.6 Practice">
+      <change afterPath="$PROJECT_DIR$/src/DataStructure/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,32 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.jGRASP Temp for LinkedList.executor": "Debug",
-    "Application.jGRASP Temp for Main (2).executor": "Debug",
-    "Application.jGRASP Temp for Main.executor": "Debug",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.LinkedListTest.executor": "Run",
-    "JUnit.TestSuiteRunner.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Host",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/apert/Documents/EWU/LinkedList/LinkedList",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "google-java-format.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.jGRASP Temp for LinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.jGRASP Temp for Main (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.jGRASP Temp for Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.LinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSuiteRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Host&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/apert/Documents/EWU/LinkedList/LinkedList&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="DataStructure" />
@@ -100,12 +107,16 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a0cf81ca-abc8-405f-a1cb-b23a3973e363" name="Changes" comment="" />
@@ -115,7 +126,29 @@
       <updated>1714802010943</updated>
       <workItem from="1714802012084" duration="1633000" />
       <workItem from="1714803659121" duration="7915000" />
-      <workItem from="1714837037960" duration="311000" />
+      <workItem from="1714837037960" duration="2293000" />
+      <workItem from="1714839350486" duration="29000" />
+      <workItem from="1714839385487" duration="158000" />
+      <workItem from="1714839593476" duration="12432000" />
+      <workItem from="1714977353239" duration="2013000" />
+      <workItem from="1715034726839" duration="1020000" />
+      <workItem from="1715163813800" duration="27000" />
+      <workItem from="1715163849326" duration="576000" />
+      <workItem from="1715164504813" duration="1241000" />
+      <workItem from="1715409054176" duration="3506000" />
+      <workItem from="1715456924569" duration="2457000" />
+      <workItem from="1715485877084" duration="1296000" />
+      <workItem from="1715563998072" duration="67000" />
+      <workItem from="1715752487710" duration="9000" />
+      <workItem from="1715913236324" duration="138000" />
+      <workItem from="1715913389265" duration="1261000" />
+      <workItem from="1715932142564" duration="31000" />
+      <workItem from="1716012612095" duration="1274000" />
+      <workItem from="1716025200467" duration="87000" />
+      <workItem from="1716028184095" duration="186000" />
+      <workItem from="1716029111120" duration="379000" />
+      <workItem from="1716029816361" duration="569000" />
+      <workItem from="1716165459227" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="Version 0.0.1 Practice">
       <option name="closed" value="true" />
@@ -229,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714811521370</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Version 0.0.6 Practice">
+      <option name="closed" value="true" />
+      <created>1714837852475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714837852475</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +293,22 @@
     <MESSAGE value="Version 0.0.3 Practice" />
     <MESSAGE value="Version 0.0.4 Practice" />
     <MESSAGE value="Version 0.0.5 Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.0.5 Practice" />
+    <MESSAGE value="Version 0.0.6 Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.0.6 Practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

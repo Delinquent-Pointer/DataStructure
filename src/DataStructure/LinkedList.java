@@ -14,12 +14,12 @@ public class LinkedList {
     size = 0;
   }
 
-  public void addLast(Object data) {
+  public boolean addLast(Object data) {
     Node newNode = new Node(data);
     if (head == null) {
       head = newNode;
       size++;
-      return;
+      return true;
     }
 
     Node cur = head;
@@ -30,6 +30,7 @@ public class LinkedList {
 
     cur.next = newNode;
     size++;
+    return true;
   }
 
   public boolean removeLast() {
@@ -65,7 +66,7 @@ public class LinkedList {
     System.out.println("Current List Size: " + size);
     Node cur = head;
 
-    for (int i = 0; i < size; i++) {
+    for (int i =0; i < size; i++) {
       System.out.println(cur.data);
       cur = cur.next;
     }
